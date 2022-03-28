@@ -23,39 +23,39 @@ export function About() {
         rowState={RowState.LockedIn}
         wordLength={4}
         cluedLetters={[
-          { clue: Clue.Absent, letter: "w" },
-          { clue: Clue.Absent, letter: "o" },
-          { clue: Clue.Correct, letter: "r" },
-          { clue: Clue.Elsewhere, letter: "d" },
+          { clue: Clue.Absent, letter: "t" },
+          { clue: Clue.Absent, letter: "i" },
+          { clue: Clue.Correct, letter: "n" },
+          { clue: Clue.Elsewhere, letter: "a" },
         ]}
       />
       <p>
-        <b>W</b> and <b>O</b> aren't in the target word at all.
+        <b>t</b> and <b>i</b> aren't in the target word at all.
       </p>
       <p>
-        <b className={"green-bg"}>R</b> is correct! The third letter is{" "}
-        <b className={"green-bg"}>R</b>
+        <b className={"green-bg"}>n</b> is correct! The third letter is{" "}
+        <b className={"green-bg"}>n</b>
         .<br />
-        <strong>(There may still be a second R in the word.)</strong>
+        <strong>(There may still be a second n in the word.)</strong>
       </p>
       <p>
-        <b className={"yellow-bg"}>D</b> occurs <em>elsewhere</em> in the target
+        <b className={"yellow-bg"}>a</b> occurs <em>elsewhere</em> in the target
         word.
         <br />
         <strong>(Perhaps more than once. 🤔)</strong>
       </p>
       <hr />
       <p>
-        Let's move the <b>D</b> in our next guess:
+        Let's move the <b>a</b> in our next guess:
       </p>
       <Row
         rowState={RowState.LockedIn}
         wordLength={4}
         cluedLetters={[
-          { clue: Clue.Correct, letter: "d" },
-          { clue: Clue.Correct, letter: "a" },
-          { clue: Clue.Correct, letter: "r" },
-          { clue: Clue.Absent, letter: "k" },
+          { clue: Clue.Correct, letter: "s" },
+          { clue: Clue.Absent, letter: "h" },
+          { clue: Clue.Correct, letter: "u" },
+          { clue: Clue.Correct, letter: "t" },
         ]}
         annotation={"So close!"}
       />
@@ -63,23 +63,17 @@ export function About() {
         rowState={RowState.LockedIn}
         wordLength={4}
         cluedLetters={[
-          { clue: Clue.Correct, letter: "d" },
-          { clue: Clue.Correct, letter: "a" },
-          { clue: Clue.Correct, letter: "r" },
+          { clue: Clue.Correct, letter: "s" },
+          { clue: Clue.Correct, letter: "l" },
+          { clue: Clue.Correct, letter: "u" },
           { clue: Clue.Correct, letter: "t" },
         ]}
         annotation={"Got it!"}
       />
       <p>
-        Report issues{" "}
-        <a href="https://github.com/lynn/hello-wordl/issues">here</a>, or tweet{" "}
-        <a href="https://twitter.com/chordbug">@chordbug</a>.
-      </p>
-      <p>
         This game will be free and ad-free forever,
         <br />
-        but you can <a href="https://ko-fi.com/chordbug">buy me a coffee</a> if
-        you'd like.
+        its as priceless as punching Jesso in the face.
       </p>
     </div>
   );
